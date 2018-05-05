@@ -1,0 +1,19 @@
+--First, make schema called "bamazon"
+--Then, make table "products"
+--Lastly, click calendar-like icon besides "products" table
+
+-- input data
+
+USE bamazon;
+INSERT INTO products(product_name, department_name, price, stock_quantity) VALUES ('Mini Drone', 'Toy', 25.99, 50);
+INSERT INTO products(product_name, department_name, price, stock_quantity) VALUES ('Noise cancelling headphone', 'Music', 149.35, 10);
+INSERT INTO products(product_name, department_name, price, stock_quantity) VALUES ('Pet car seat cover', 'Pets', 42.89, 8);
+INSERT INTO products(product_name, department_name, price, stock_quantity) VALUES ('Strida LT', 'Leasure', 551.71, 5);
+INSERT INTO products(product_name, department_name, price, stock_quantity) VALUES ('HDMI cable', 'Electronics', 9.99, 100);
+INSERT INTO products(product_name, department_name, price, stock_quantity) VALUES ('iMac', 'Computer', 1299.99, 25);
+INSERT INTO products(product_name, department_name, price, stock_quantity) VALUES ('Smart watch', 'Accessories', 75.99, 30);
+INSERT INTO products(product_name, department_name, price, stock_quantity) VALUES ('iPhone X', 'Electronics', 999.99, 20);
+INSERT INTO products(product_name, department_name, price, stock_quantity) VALUES ('Lamp', 'Electronics', 5.59, 4);
+INSERT INTO products(product_name, department_name, price, stock_quantity) VALUES ('Chocolate', 'Food', 9.99, 200);
+INSERT INTO products(product_name, department_name, price, stock_quantity) VALUES ('Monitor', 'Electronics', 299.99, 6);
+SELECT * FROM bamazon.products;
