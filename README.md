@@ -7,13 +7,13 @@ https://github.com/jinkkim/bAmazon
 Type the following commands within terminal (Mac or Linux) or Command Prompt (Windows):
 
 1. `node bamazonCustomer.js <purchase>'`
-  - Purchase Item number 9 
+  - Purchase Item number 1
 
-![Purchase](1.purchase.gif)
+![Purchase](purchase.gif)
 
 2. `node bamazonCustomer.js <sold out>'`
   - Stock quantity left 0
 
-![Sold out](2.fail.gif)
+![Sold out](fail.gif)
 
 
